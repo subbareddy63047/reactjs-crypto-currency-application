@@ -1,0 +1,21 @@
+/* Write your CSS here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'roboto';
+}
+.main-container {
+  background-color: #000000;
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+  padding: 10px;
+}
+.loader-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

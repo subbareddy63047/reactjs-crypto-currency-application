@@ -1,0 +1,91 @@
+/* Write your CSS code here */
+.inner-container {
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+}
+
+.heading {
+  font-size: 40px;
+  text-align: center;
+  color: #00e7ff;
+  font-weight: bold;
+}
+.money-img {
+  width: 80%;
+  height: 20%;
+  object-fit: cover;
+}
+
+.money-list-container {
+  width: 80vw;
+  height: 50%;
+  border: 2px solid #00e7ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  background-color: #092e33;
+  margin-bottom: 8px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.first-para,
+.last-container p {
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+}
+.last-container {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.money-main-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+
+  overflow: auto;
+}
+
+@media screen and (min-width: 350px) and (max-width: 768px) {
+  .first-para,
+  .last-container p {
+    font-size: 8px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .first-para,
+  .last-container p {
+    font-size: 2px;
+  }
+  .heading {
+    font-size: 10px;
+  }
+  .money-list-container {
+    width: 90vw;
+  }
+}

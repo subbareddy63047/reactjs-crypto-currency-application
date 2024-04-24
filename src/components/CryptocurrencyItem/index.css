@@ -1,0 +1,34 @@
+/* Write your CSS code here */
+#each-list-item {
+  list-style-type: none;
+  background-color: #000;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.occurency-name {
+  font-size: 10px;
+  color: #fff;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .occurency-name {
+    font-size: 5px;
+  }
+}
